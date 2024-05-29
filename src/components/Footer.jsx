@@ -1,10 +1,18 @@
-import React from 'react';
-import { Canvas } from '@react-three/fiber';
+import React, { useRef } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 
 function Model({ path }) {
   const { scene } = useGLTF(path);
-  return <primitive object={scene} scale={[0.7, 0.7, 0.7]} />;
+  const ref = useRef();
+
+  useFrame(() => {
+    if (ref.current) {
+      ref.current.rotation.y += 0.01; // Adjust the speed of rotation as needed
+    }
+  });
+
+  return <primitive object={scene} ref={ref} scale={[0.7, 0.7, 0.7]} />;
 }
 
 const Footer = () => {
