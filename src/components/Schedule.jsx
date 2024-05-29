@@ -10,7 +10,7 @@ function Schedule() {
   ];
 
   return (
-    <div id='section2' name='schedule' className='relative w-full h-screen flex justify-center items-center ' >
+    <div name='schedule' className=' wrapper relative w-full h-screen flex justify-center items-center ' >
       <img className='absolute w-full h-full object-cover sm:hidden' src={sniper} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
@@ -45,6 +45,9 @@ function Schedule() {
             <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
                 Prizes will be decided once the registration is completed
             </h2>
+            <h1 className='text-white text-xl font-bold mt-2'>
+                Easypaisa/Jazzcash number is 03316926656. Send your tournament entry here and add the transaction id number to register.
+            </h1>
         </div>
       </div>
     </div>

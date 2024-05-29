@@ -23,7 +23,7 @@ function NavBar() {
         }
     ]
   return (
-    <div className=' flex justify-between items-center bg-transparent text-white w-full fixed z-10'>
+    <div className='wrapper flex justify-between items-center bg-transparent text-white w-full fixed z-20'>
         <div>
             <img className='w-24 h-auto' src={PakPubg} alt='logo' />
         </div>

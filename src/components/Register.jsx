@@ -26,7 +26,7 @@ function Register() {
   }
 
   return (
-    <div id='section3' name='register' className='relative w-full  flex justify-center items-center'>
+    <div name='register' className='wrapper relative w-full h-screen flex justify-center items-center'>
       <img className='sm:hidden absolute w-full h-full object-cover' src={background} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
@@ -51,9 +51,7 @@ function Register() {
             </form>
            
           </div>
-          <h1 className='text-white text-xl font-bold mt-2'>
-                Easypaisa/Jazzcash number is 03316926656. Send your tournament entry here and add the transaction id number to register.
-            </h1>
+  
         </div>
         
       </div>

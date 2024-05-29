@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <footer style={footerStyle}>
       <div style={containerStyle} className='text-white'>
+        
         <h2>Contact Us</h2>
         <p>Email: infiniteexportsolutions@gmail.com</p>
         <p>Phone: +92 3316926656</p>
