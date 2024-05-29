@@ -10,10 +10,11 @@ function Schedule() {
   ];
 
   return (
-    <div className='relative w-full h-screen flex justify-center items-center ' >
+    <div name='schedule' className='relative w-full h-screen flex justify-center items-center ' >
       <img className='absolute w-full h-full object-cover sm:hidden' src={sniper} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
+            
           <h1 className='text-white text-4xl font-bold mb-6'>
             Tournament Schedule
           </h1>
@@ -33,10 +34,17 @@ function Schedule() {
                   <td className='border px-4 py-2'>{schedule.event}</td>
                   <td className='border px-4 py-2'>{schedule.mapName}</td>
                   <td className='border px-4 py-2'>{schedule.location}</td>
+                  
                 </tr>
               ))}
             </tbody>
           </table>
+          <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
+                Entry fee is 500 rupees/team
+            </h2>
+            <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
+                Prizes will be decided once the registration is completed
+            </h2>
         </div>
       </div>
     </div>

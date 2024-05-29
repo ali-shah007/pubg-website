@@ -1,5 +1,6 @@
 import React from 'react'
 import PakPubg from '../assets/Logo-no-bg.png'; 
+import { Link } from 'react-scroll'
 
 function NavBar() {
     const Links = [
@@ -8,11 +9,7 @@ function NavBar() {
             title: 'home',
             
         },
-        {
-            id:1,
-            title: 'about',
-            
-        },
+        
         {
             id:1,
             title: 'schedule',
@@ -34,7 +31,7 @@ function NavBar() {
         <ul className='flex'>
            {Links.map(({id,title})=>(
             <li key={id} className=' px-4 capitalize flex-col text-white hover:text-gray-400 cursor-pointer duration-200 hover:scale-105'>
-                {title}
+                <Link to={title} smooth duration={500}>{title}</Link>
             </li>
            ))}
         </ul>

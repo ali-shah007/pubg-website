@@ -26,7 +26,7 @@ function Register() {
   }
 
   return (
-    <div className='relative w-full h-screen flex justify-center items-center'>
+    <div name='register' className='relative w-full h-screen flex justify-center items-center'>
       <img className='sm:hidden absolute w-full h-full object-cover' src={background} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
