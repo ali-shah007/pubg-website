@@ -16,7 +16,7 @@ function Schedule() {
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
             
           <h1 className='text-white text-4xl font-bold mb-6'>
-            Tournament Schedule
+            Duo Tournament 20k Schedule
           </h1>
           <table className='table-auto w-full text-white'>
             <thead>
