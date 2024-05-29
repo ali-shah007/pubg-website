@@ -4,27 +4,29 @@ import { OrbitControls, useGLTF } from '@react-three/drei';
 
 function Model({ path }) {
   const { scene } = useGLTF(path);
-  return <primitive object={scene} scale={[0.5, 0.5, 0.5]} />;
+  return <primitive object={scene} scale={[0.7, 0.7, 0.7]} />;
 }
 
 const Footer = () => {
   return (
-    <footer style={footerStyle} className='flex flex-col md:flex-row justify-between items-center'>
-      <div style={containerStyle} className='text-white p-4 md:w-1/2'>
-        <h2>Contact Us</h2>
-        <p>Email: infiniteexportsolutions@gmail.com</p>
-        <p>Phone: +92 3316926656</p>
-        <p>Address: Gopalput Bhagowal Road, Sialkot</p>
-      </div>
-      <div className='w-full h-64 md:w-1/2 md:h-full'>
-        <Canvas className='bg-black w-full h-full'>
+    <div className="w-full grid grid-cols-4">
+      <div className="col-span-1 bg-black ">
+        <Canvas>
           <ambientLight intensity={10} />
           <directionalLight position={[5, 5, 5]} intensity={10} />
-          <Model path='/uaz/scene.gltf' />
+          <Model path="/pubgmodel/scene.gltf" />
           <OrbitControls enableZoom={false} />
         </Canvas>
       </div>
-    </footer>
+      <footer className="col-span-3 flex flex-col justify-center items-center text-white" style={footerStyle}>
+        <div className="p-4 w-full md:w-1/2" style={containerStyle}>
+          <h2>Contact Us</h2>
+          <p>Email: infiniteexportsolutions@gmail.com</p>
+          <p>Phone: +92 3316926656</p>
+          <p>Address: Gopalput Bhagowal Road, Sialkot</p>
+        </div>
+      </footer>
+    </div>
   );
 };
 
@@ -32,7 +34,7 @@ const footerStyle = {
   backgroundColor: '#010101',
   padding: '0px 0px',
   textAlign: 'center',
-  height: 'auto',
+  height: '100%',
 };
 
 const containerStyle = {
