@@ -1,5 +1,5 @@
 import React from 'react'
-import PakPubg from '../asserts/Logo-no-bg.png'; 
+import PakPubg from '../assets/Logo-no-bg.png'; 
 
 function NavBar() {
     const Links = [

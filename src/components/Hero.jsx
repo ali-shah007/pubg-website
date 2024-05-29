@@ -1,5 +1,5 @@
 import React from 'react';
-import carlo from '../asserts/carlo.jpg'; 
+import carlo from '../assets/carlo.jpg'; 
 
 
 function Hero() {
