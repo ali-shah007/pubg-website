@@ -1,0 +1,11 @@
+Model Information:
+* title:	PUBG - Enchanted Pumpkin UAZ
+* source:	https://sketchfab.com/3d-models/pubg-enchanted-pumpkin-uaz-1946ee57caed4fdf92bd5714f29a5152
+* author:	Bahut Accha (https://sketchfab.com/bahutaccha)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PUBG - Enchanted Pumpkin UAZ" (https://sketchfab.com/3d-models/pubg-enchanted-pumpkin-uaz-1946ee57caed4fdf92bd5714f29a5152) by Bahut Accha (https://sketchfab.com/bahutaccha) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
