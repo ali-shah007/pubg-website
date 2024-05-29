@@ -2,13 +2,7 @@ import React from 'react';
 import carlo from '../assets/carlo.jpg'; 
 import hero from '../assets/peakpx (3).jpg'; 
 import { Link } from 'react-scroll';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
 
-function Model({ path }) {
-  const { scene } = useGLTF(path);
-  return <primitive object={scene} scale={[0.5, 0.5, 0.5]} />;
-}
 
 function Hero() {
   return (
@@ -28,16 +22,13 @@ function Hero() {
               Register Now!
             </Link>
           </div>
+          
         </div>
         
        
       </div>
-      <Canvas className='w-full h-full hidden md:flex'>
-              <ambientLight intensity={0.5} />
-              <directionalLight position={[0, 5, 5]} intensity={10} />
-              <Model path='/uaz/scene.gltf' />
-              <OrbitControls enableZoom={false} />
-            </Canvas>
+      
+      
     </div>
   );
 }

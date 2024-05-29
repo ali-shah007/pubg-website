@@ -5,6 +5,8 @@ import Register from "./components/Register";
 import Schedule from "./components/Schedule";
 
 
+
+
 function App() {
   return (
     <div>
@@ -12,6 +14,7 @@ function App() {
       <Hero/>
       <Schedule/>
       <Register/>
+      
       <Footer/>
     </div>
   );
