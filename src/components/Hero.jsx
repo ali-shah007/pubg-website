@@ -16,11 +16,11 @@ function Hero() {
       <img className='absolute w-full h-full object-cover' src={carlo} alt='Background' />
       <img className='hidden md:flex absolute w-full h-full object-cover' src={hero} alt='Background' />
       
-      <div className='max-w-7xl w-full relative z-10 p-4 grid grid-cols-1 md:grid-cols-2 gap-4'>
-        <div className='text-center md:text-left'>
+      <div className='max-w-7xl w-full relative z-10 p-4 flex md:grid-cols-2 gap-4'>
+        <div className='text-center md:px-10 lg:px-20'>
           <div className='inline-block bg-black bg-opacity-50 p-4 rounded'>
             <h1 className='text-white text-4xl font-bold'>
-              Join our tournaments to win exciting prizes up to 25k and much more...
+              Join our Tournaments to Win Exciting Prizes up to 25k and much more...
             </h1>
           </div>
           <div className='bg-yellow-500 cursor-pointer px-2 py-7 mt-10 rounded-2xl text-white text-4xl font-semibold hover:scale-105 hover:bg-black transition duration-200'>
@@ -32,7 +32,7 @@ function Hero() {
         
        
       </div>
-      <Canvas className='w-full h-full flex-col'>
+      <Canvas className='w-full h-full hidden md:flex'>
               <ambientLight intensity={0.5} />
               <directionalLight position={[0, 5, 5]} intensity={10} />
               <Model path='/uaz/scene.gltf' />
