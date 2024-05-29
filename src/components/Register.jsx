@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import background from '../assets/register.jpg';
+import background1 from '../assets/background1.jpg';
 import emailjs from 'emailjs-com';
 
 function Register() {
@@ -26,8 +27,9 @@ function Register() {
   }
 
   return (
-    <div name='register' className='wrapper relative w-full  flex justify-center items-center'>
-      <img className='sm:hidden absolute w-full h-full object-cover' src={background} alt='Background' />
+    <div name='register' className='md:h-screen wrapper relative w-full  flex justify-center items-center'>
+      <img className=' absolute w-full h-full object-cover' src={background} alt='Background' />
+      <img className='hidden md:flex absolute w-full h-full object-cover' src={background1} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
           <h1 className='text-white text-4xl font-bold mb-6'>
@@ -39,13 +41,12 @@ function Register() {
               <input type="email" name="email" placeholder="Enter your email" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
               <select name="tournament" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required>
                 <option value="Select Tournament">Select Tournament</option>
-                <option value="tournament1">Duo Tournament 20k starting 1st June</option>
+                <option value="tournament1">Squad Tournament 20k starting 1st June</option>
               </select>
               <input type="text" name="gameID" placeholder="Enter your Game ID" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
-              <input type="text" name="teammateID" placeholder="Enter your Teammate's ID" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
               <input type="tel" name="phone" placeholder="Enter your phone number" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
               <input type="transaction" name="transaction" placeholder="Enter Entry Fee Transaction id" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
-              <button type="submit" className='bg-yellow-500 px-8 py-5 rounded-2xl text-white text-4xl font-semibold hover:scale-105 hover:bg-black smooth duration-200'>
+              <button type="submit" className='bg-yellow-500 px-8 py-4 rounded-2xl text-white text-4xl font-semibold hover:scale-105 hover:bg-black smooth duration-200'>
                 {isLoading ? 'Sending...' : 'Register'}
               </button>
             </form>

@@ -1,13 +1,16 @@
 import React from 'react';
 import carlo from '../assets/carlo.jpg'; 
+import hero from '../assets/background1.jpg'; 
 import { Link } from 'react-scroll'
 
 
 function Hero() {
   return (
     <div name='home' className='wrapper relative w-full h-screen flex justify-center items-center '>
-      <img className='sm:hidden absolute w-full h-full object-cover' src={carlo} alt='Background' />
-      <div className='relative z-10 text-center p-4'>
+      <img className='absolute w-full h-full object-cover' src={carlo} alt='Background' />
+      <img className='hidden md:flex absolute w-full h-full object-cover' src={hero} alt='Background' />
+     
+      <div className=' max-w-lg relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-4 rounded'>
           <h1 className='text-white text-4xl font-bold'>
             Join our tournaments to win exciting prizes upto 25k and much more...
