@@ -27,9 +27,9 @@ const Footer = () => {
         </Canvas>
       </div>
       <footer className="col-span-3 flex flex-col justify-center items-center text-white" style={footerStyle}>
-        <div className="p-4 w-full md:w-1/2" style={containerStyle}>
-          <h2>Contact Us</h2>
-          <p>Email: infiniteexportsolutions@gmail.com</p>
+        <div className="p-4 w-full md:w-1/2 " style={containerStyle}>
+          <h2 className='text-4xl pb-5'>Get in Touch</h2>
+          <p>infiniteexportsolutions@gmail.com</p>
           <p>Phone: +92 3316926656</p>
           <p>Address: Gopalput Bhagowal Road, Sialkot</p>
         </div>
