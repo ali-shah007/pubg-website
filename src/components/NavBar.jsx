@@ -1,4 +1,5 @@
 import React from 'react'
+import PakPubg from '../asserts/Logo-no-bg.png'; 
 
 function NavBar() {
     const Links = [
@@ -27,7 +28,7 @@ function NavBar() {
   return (
     <div className='flex justify-between items-center bg-transparent text-white w-full fixed z-10'>
         <div>
-            <h1 className=' text-5xl px-4 py-3'>Ali</h1>
+            <img className='w-24 h-auto' src={PakPubg} alt='logo' />
         </div>
         
         <ul className='flex'>
