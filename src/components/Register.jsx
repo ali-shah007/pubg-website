@@ -49,8 +49,13 @@ function Register() {
                 {isLoading ? 'Sending...' : 'Register'}
               </button>
             </form>
+           
           </div>
+          <h1 className='text-white text-xl font-bold mt-2'>
+                Easypaisa/Jazzcash number is 03316926656. Send your tournament entry here and add the transaction id number to register.
+            </h1>
         </div>
+        
       </div>
       {showPopup && (
         <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center h-16 bg-green-500 text-white">

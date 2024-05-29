@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Register from "./components/Register";
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Schedule/>
       <Register/>
+      <Footer/>
     </div>
   );
 }
