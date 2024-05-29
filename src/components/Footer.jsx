@@ -17,8 +17,8 @@ function Model({ path }) {
 
 const Footer = () => {
   return (
-    <div className="w-full grid grid-cols-4">
-      <div className="col-span-1 bg-black ">
+    <div className="w-full grid grid-cols-4 py-20  bg-black">
+      <div className="col-span-1 ">
         <Canvas>
           <ambientLight intensity={10} />
           <directionalLight position={[5, 5, 5]} intensity={10} />
@@ -26,7 +26,7 @@ const Footer = () => {
           <OrbitControls enableZoom={false} />
         </Canvas>
       </div>
-      <footer className="col-span-3 flex flex-col justify-center items-center text-white" style={footerStyle}>
+      <footer className="col-span-3 flex flex-col justify-center items-center text-white " style={footerStyle}>
         <div className="p-4 w-full md:w-1/2 " style={containerStyle}>
           <h2 className='text-4xl pb-5'>Get in Touch</h2>
           <p>infiniteexportsolutions@gmail.com</p>
