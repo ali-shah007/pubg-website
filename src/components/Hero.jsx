@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 
 function Hero() {
   return (
-    <div name='home' className='relative w-full h-screen flex justify-center items-center '>
+    <div id='section1' name='home' className='relative w-full h-screen flex justify-center items-center '>
       <img className='sm:hidden absolute w-full h-full object-cover' src={carlo} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-4 rounded'>

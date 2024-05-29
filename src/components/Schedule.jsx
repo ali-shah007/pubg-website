@@ -10,7 +10,7 @@ function Schedule() {
   ];
 
   return (
-    <div name='schedule' className='relative w-full h-screen flex justify-center items-center ' >
+    <div id='section2' name='schedule' className='relative w-full h-screen flex justify-center items-center ' >
       <img className='absolute w-full h-full object-cover sm:hidden' src={sniper} alt='Background' />
       <div className='relative z-10 text-center p-4'>
         <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
