@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Register from "./components/Register";
 import Schedule from "./components/Schedule";
 
 
@@ -9,6 +10,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <Schedule/>
+      <Register/>
     </div>
   );
 }
