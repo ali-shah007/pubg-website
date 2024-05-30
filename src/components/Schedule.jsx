@@ -4,9 +4,9 @@ import background from '../assets/background2.jpg';
 
 function Schedule() {
   const tournamentSchedule = [
-    { date: '2024-06-01',mapName: 'Livik', event: 'Round 1', location: 'Online' },
-    { date: '2024-06-02',mapName: 'Sanhok', event: 'Round 2', location: 'Online' },
-    { date: '2024-06-03',mapName: 'Erangel', event: 'Round 3', location: 'Online' },
+    { date: '2024-06-01',time: '22:00 PST',mapName: 'Miramir', event: 'Round 1', location: 'Online' },
+    { date: '2024-06-01',time: '22:45 PST',mapName: 'Sanhok', event: 'Round 2', location: 'Online' },
+    { date: '2024-06-01',time: '23:30 PST',mapName: 'Erangel', event: 'Round 3', location: 'Online' },
     
   ];
 
@@ -24,6 +24,7 @@ function Schedule() {
             <thead>
               <tr>
                 <th className='px-4 py-2'>Date</th>
+                <th className='px-4 py-2'>Time</th>
                 <th className='px-4 py-2'>Event</th>
                 <th className='px-4 py-2'>Map</th>
                 <th className='px-4 py-2'>Location</th>
@@ -33,6 +34,7 @@ function Schedule() {
               {tournamentSchedule.map((schedule, index) => (
                 <tr key={index} className='hover:bg-gray-700'>
                   <td className='border px-4 py-2'>{schedule.date}</td>
+                  <td className='border px-4 py-2'>{schedule.time}</td>
                   <td className='border px-4 py-2'>{schedule.event}</td>
                   <td className='border px-4 py-2'>{schedule.mapName}</td>
                   <td className='border px-4 py-2'>{schedule.location}</td>
