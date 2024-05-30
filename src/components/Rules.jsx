@@ -1,6 +1,7 @@
 import React from 'react'
 import bgrules from '../assets/longbg.png'
 
+
 function Rules() {
     const tournamentRules = [
         { description: 'Point System', rule:'Tournament Style'},
@@ -43,6 +44,7 @@ Mobile Rules
             ))}
           </tbody>
         </table>
+       
         <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
               Entry fee is 1000 rupees/team
           </h2>
