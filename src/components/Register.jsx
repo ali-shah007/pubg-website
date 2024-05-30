@@ -27,7 +27,7 @@ function Register() {
   }
 
   return (
-    <div name='register' className='md:h-screen wrapper relative w-full  flex justify-center items-center'>
+    <div name='register' className='sm:h-screen wrapper relative w-full  flex justify-center items-center'>
       <img className=' absolute w-full h-full object-cover' src={background} alt='Background' />
       <img className='hidden md:flex absolute w-full h-full object-cover ' src={background1} alt='Background' />
       <div className='relative z-10 text-center p-4'>

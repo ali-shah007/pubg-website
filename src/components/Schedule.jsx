@@ -11,7 +11,7 @@ function Schedule() {
   ];
 
   return (
-    <div name='schedule' className='md:h-screen wrapper relative w-full flex justify-center items-center ' >
+    <div name='schedule' className='sm:h-screen wrapper relative w-full flex justify-center items-center ' >
       <img className='absolute w-full h-full object-cover' src={sniper} alt='Background' />
       <img className='absolute w-full h-full object-cover hidden md:flex ' src={background} alt='Background' />
       <div className='relative z-10 text-center p-4'>
