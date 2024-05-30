@@ -4,9 +4,9 @@ import background from '../assets/background2.jpg';
 
 function Schedule() {
   const tournamentSchedule = [
-    { date: '2024-06-01',time: '22:00 PST',mapName: 'Miramir', event: 'Round 1', location: 'Online' },
-    { date: '2024-06-01',time: '22:45 PST',mapName: 'Sanhok', event: 'Round 2', location: 'Online' },
-    { date: '2024-06-01',time: '23:30 PST',mapName: 'Erangel', event: 'Round 3', location: 'Online' },
+    { date: '2024-06-02',time: '22:00 PST',mapName: 'Miramir', event: 'Round 1', location: 'Online' },
+    { date: '2024-06-02',time: '22:45 PST',mapName: 'Sanhok', event: 'Round 2', location: 'Online' },
+    { date: '2024-06-02',time: '23:30 PST',mapName: 'Erangel', event: 'Round 3', location: 'Online' },
     
   ];
 
