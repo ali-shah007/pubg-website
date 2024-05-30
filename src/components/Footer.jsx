@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp,  faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Model({ path }) {
   const { scene } = useGLTF(path);
