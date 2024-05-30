@@ -41,7 +41,7 @@ function Register() {
               <input type="email" name="email" placeholder="Enter your email" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
               <select name="tournament" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required>
                 <option value="Select Tournament">Select Tournament</option>
-                <option value="tournament1">Squad Tournament 20k starting 1st June</option>
+                <option value="tournament1">Squad Tournament 10k Sunday</option>
               </select>
               <input type="text" name="gameID" placeholder="Enter your Game ID" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
               <input type="tel" name="phone" placeholder="Enter your phone number" className='bg-transparent px-4 py-2 rounded-md mb-4 block w-full' required />
