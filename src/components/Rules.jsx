@@ -1,5 +1,5 @@
 import React from 'react'
-import bgrules from '../assets/longbg.png'
+import bgrules from '../assets/longbg.jpg'
 
 
 function Rules() {
@@ -19,7 +19,7 @@ function Rules() {
     <img className='absolute w-full h-full object-cover' src={bgrules} alt='Background' />
     <img className='absolute w-full h-full object-cover hidden md:flex ' src={bgrules} alt='Background' />
     <div className='relative z-10 text-center p-4'>
-      <div className='inline-block bg-black bg-opacity-50 p-8 rounded'>
+      <div className='inline-block bg-black bg-opacity-80 p-8 rounded'>
           
         <h1 className='text-white text-4xl font-bold mb-6'>
         PlayerUnknown's Battlegrounds
@@ -35,7 +35,7 @@ Mobile Rules
           </thead>
           <tbody>
             {tournamentRules.map((rule, index) => (
-              <tr key={index} className='hover:bg-gray-700'>
+              <tr key={index} className='hover:bg-gray-800'>
                 <td className='border px-4 py-2'>{rule.rule}</td>
                 <td className='border px-4 py-2'>{rule.description}</td>
 
@@ -45,10 +45,10 @@ Mobile Rules
           </tbody>
         </table>
        
-        <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
+        <h2 className='text-white text-xl font-bold mb-6 mt-6'>
               Entry fee is 1000 rupees/team
           </h2>
-          <h2 className='text-yellow-500 text-xl font-bold mb-6 mt-6'>
+          <h2 className='text-white text-xl font-bold mb-6 mt-6'>
               Prizes will be decided once the registration is completed
           </h2>
           <h1 className='text-white text-xl font-bold mt-2'>
